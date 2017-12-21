@@ -11,7 +11,7 @@ var btns = [], sprite, curChar, pos = [], clicked = {};
 function preload() {
   /***** Background *****/
   game.stage.backgroundColor = '#fff';
-  game.load.image('bg', 'assets/images/bg.jpg');
+  game.load.image('bg', 'assets/images/BG.jpg');
 
   /***** Characters *****/
   game.load.image('char01', 'assets/images/main_01.png');
@@ -113,5 +113,5 @@ function actionOnClick1(btnName) {
 }
 
 function actionOnClick2() {
-  alert('CTA ACTION');
+  window.location.href = 'http://mar.by/v2/4C9B';
 }

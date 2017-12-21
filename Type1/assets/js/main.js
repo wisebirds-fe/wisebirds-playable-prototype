@@ -107,5 +107,5 @@ function actionOnClick1(btnName) {
 }
 
 function actionOnClick2() {
-  alert('CTA ACTION');
+  window.location.href = 'http://mar.by/v2/4C9B';
 }
